@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+mindora-a237f-firebase-adminsdk-fbsvc-10ff10fa8e.json
+config.json
