@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "node generate-config.js && next build",
+    "prebuild": "node generate-config.js && node generate-firebase.js",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
