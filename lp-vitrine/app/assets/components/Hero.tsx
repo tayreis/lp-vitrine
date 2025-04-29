@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import config from "@/config.json";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -10,11 +11,18 @@ export default function Hero() {
       className="relative py-24 px-6 text-center overflow-hidden"
       style={{ backgroundColor: config.styles.colors.primary }}
     >
-      {/* Gradiente rosa suave no canto esquerdo */}
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-[#fbe9e3] via-transparent to-transparent z-0 opacity-40 pointer-events-none" />
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/banner-dois.png" // coloque sua imagem correta aqui
+          alt="Imagem Direito"
+          layout="fill"
+          priority
+          className="opacity-60 object-cover"
+        />
+      </div>
 
-      {/* Brilho dourado no canto inferior direito */}
-      <div className="absolute bottom-0 right-0 w-full h-full bg-gradient-to-tl from-transparent via-transparent to-[#d4af37]/20 z-0 pointer-events-none" />
+      {/* Gradiente dourado e verde sobre a imagem */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-[#012b1d]/80 via-transparent to-[#d4af37]/30 z-10 pointer-events-none" />
 
       <div className="relative z-10 max-w-5xl mx-auto">
         <motion.h1

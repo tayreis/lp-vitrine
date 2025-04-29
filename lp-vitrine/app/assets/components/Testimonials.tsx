@@ -3,12 +3,12 @@
 import React from "react";
 import config from "@/config.json";
 import { Star } from "lucide-react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// Hook para detectar mobile
 function useIsMobile() {
   const [isMobile, setIsMobile] = React.useState(false);
   React.useEffect(() => {
@@ -20,6 +20,14 @@ function useIsMobile() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
   return isMobile;
+}
+
+// Gera cor de fundo aleatória suave baseada em paleta
+const colors = ["#fbe9e3", "#d4af37", "#012b1d"];
+
+function getInitial(name: string) {
+  const cleanedName = name.replace("— ", "").trim();
+  return cleanedName.charAt(0).toUpperCase();
 }
 
 export default function Testimonials() {
@@ -36,10 +44,10 @@ export default function Testimonials() {
       {/* Gradiente dourado no fundo */}
       <div className="absolute right-0 bottom-0 w-full h-full bg-gradient-to-tr from-transparent via-transparent to-[#d4af37]/10 pointer-events-none z-0" />
 
-      <div className="relative z-10 max-w-4xl mx-auto">
+      <div className="relative z-10 max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-4">Depoimentos</h2>
-        <p className="mb-12 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
-          Nosso compromisso é oferecer atendimento jurídico com excelência, ética e empatia. Veja o que dizem alguns dos nossos clientes.
+        <p className="mb-8 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
+          Com <strong>64 avaliações excelentes no Google</strong>, temos orgulho em compartilhar o que nossos clientes dizem sobre a experiência que tiveram conosco.
         </p>
 
         <Swiper
@@ -52,16 +60,33 @@ export default function Testimonials() {
         >
           {config.testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white text-[#0a1f3c] rounded-xl p-6 shadow-md text-left max-w-xl mx-auto h-full flex flex-col min-h-[260px]">
+              <div className="relative bg-white text-[#0a1f3c] rounded-xl p-6 shadow-md text-left max-w-xl mx-auto h-full flex flex-col min-h-[280px]">
+                <Image 
+                  src="/google-icon.svg" 
+                  alt="Google Logo" 
+                  width={24} 
+                  height={24} 
+                  className="absolute top-4 right-4" 
+                />
+
                 <div className="mb-4 text-yellow-400 flex">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} size={18} fill="currentColor" />
                   ))}
                 </div>
-                <p className="text-sm text-gray-700 mb-4 leading-relaxed flex-grow">
+
+                <p className="text-sm text-gray-700 mb-6 leading-relaxed flex-grow">
                   {testimonial.text}
                 </p>
+
+                {/* Nome e imagem de perfil */}
                 <div className="flex items-center gap-3 pt-4 border-t border-gray-100 mt-auto">
+                  <div
+                    className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white text-lg"
+                    style={{ backgroundColor: colors[index % colors.length] }}
+                  >
+                    {getInitial(testimonial.name)}
+                  </div>
                   <p className="text-sm font-semibold text-[#0a1f3c]">
                     {testimonial.name}
                   </p>
@@ -70,6 +95,9 @@ export default function Testimonials() {
             </SwiperSlide>
           ))}
         </Swiper>
+        <p className="mt-4 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
+          Nosso compromisso é oferecer atendimento jurídico com excelência, ética e empatia.
+        </p>
       </div>
     </section>
   );

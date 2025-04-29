@@ -4,16 +4,14 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Header from "./assets/components/Header";
 import Hero from "./assets/components/Hero";
-import About from "./assets/components/About";
 import Services from "./assets/components/Services";
-import Portfolio from "./assets/components/Portfolio";
 import CTASection from "./assets/components/CTASection";
 import Footer from "./assets/components/Footer";
 import Testimonials from "./assets/components/Testimonials";
-import PricingSection from "./assets/components/Prices";
 import FeatureIcons from "./assets/components/FeatureIcons";
 import FaqSection from "./assets/components/FaqSection";
 import AboutPerson from "./assets/components/AboutPerson";
+import ClientProfileSection from "./assets/components/ClientProfileSection";
 
 interface FormData {
   nome: string;
@@ -57,9 +55,11 @@ export default function LandingPage() {
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <main className="pt-24">
         <Hero />
-        <About />
-        <Services />
         <FeatureIcons />
+        <AboutPerson />
+        <Services />
+        <Testimonials />
+        <ClientProfileSection />
         <CTASection
           onSubmit={onSubmit}
           register={register}
@@ -68,8 +68,6 @@ export default function LandingPage() {
           isSending={isSending}
           formSuccess={formSuccess}
         />
-        <AboutPerson />
-        <Testimonials />
         <FaqSection />
       </main>
       <Footer />

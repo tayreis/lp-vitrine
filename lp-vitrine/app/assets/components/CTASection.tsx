@@ -56,8 +56,7 @@ export default function CTASection({
               href={config.whatsappUrls.ctaFinal}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block font-semibold py-3 px-6 rounded-xl shadow-md transition-transform duration-200 transform hover:scale-105 active:scale-95"
-              style={{ backgroundColor: config.styles.colors.secondary, color: config.styles.colors.primary }}
+              className="inline-block font-semibold py-3 px-6 rounded-xl shadow-md animate-pulse-slow bg-gradient-to-r from-[#fbe9e3] via-[#d4af37] to-[#fbe9e3] text-[#012b1d] transition-all duration-300 hover:scale-105"
             >
               {config.ctaFinal.buttonText}
             </a>
@@ -129,6 +128,24 @@ export default function CTASection({
           )}
         </div>
       </div>
+
+      <style jsx global>{`
+        @keyframes pulse-slow {
+          0%, 100% {
+            transform: scale(1);
+            background-position: 0% 50%;
+          }
+          50% {
+            transform: scale(1.05);
+            background-position: 100% 50%;
+          }
+        }
+
+        .animate-pulse-slow {
+          animation: pulse-slow 4s ease-in-out infinite;
+          background-size: 200% 200%;
+        }
+      `}</style>
     </section>
   );
 }
