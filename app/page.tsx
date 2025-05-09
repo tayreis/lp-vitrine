@@ -59,7 +59,7 @@ export default function LandingPage() {
         <AboutPerson />
         <Services />
         <Testimonials />
-        <ClientProfileSection />
+        {/* <ClientProfileSection /> */}
         <CTASection
           onSubmit={onSubmit}
           register={register}

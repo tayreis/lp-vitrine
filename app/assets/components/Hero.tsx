@@ -13,7 +13,7 @@ export default function Hero() {
     >
       <div className="absolute inset-0 z-0">
         <Image
-          src="/banner-dois.png" // coloque sua imagem correta aqui
+          src="/banner.png" // coloque sua imagem correta aqui
           alt="Imagem Direito"
           layout="fill"
           priority

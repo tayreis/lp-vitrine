@@ -47,7 +47,7 @@ export default function Testimonials() {
       <div className="relative z-10 max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-4">Depoimentos</h2>
         <p className="mb-8 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
-          Com <strong>64 avaliações excelentes no Google</strong>, temos orgulho em compartilhar o que nossos clientes dizem sobre a experiência que tiveram conosco.
+          Com avaliações excelentes no Google, temos orgulho em compartilhar o que nossos clientes dizem sobre a experiência que tiveram conosco.
         </p>
 
         <Swiper
@@ -61,12 +61,12 @@ export default function Testimonials() {
           {config.testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
               <div className="relative bg-white text-[#0a1f3c] rounded-xl p-6 shadow-md text-left max-w-xl mx-auto h-full flex flex-col min-h-[280px]">
-                <Image 
-                  src="/google-icon.svg" 
-                  alt="Google Logo" 
-                  width={24} 
-                  height={24} 
-                  className="absolute top-4 right-4" 
+                <Image
+                  src="/google-icon.svg"
+                  alt="Google Logo"
+                  width={24}
+                  height={24}
+                  className="absolute top-4 right-4"
                 />
 
                 <div className="mb-4 text-yellow-400 flex">
@@ -96,7 +96,7 @@ export default function Testimonials() {
           ))}
         </Swiper>
         <p className="mt-4 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
-          Nosso compromisso é oferecer atendimento jurídico com excelência, ética e empatia.
+          Aqui, cada cliente é ouvido com atenção e cuidado. Nosso compromisso vai além da técnica jurídica: entregamos um atendimento ético, humano e estratégico, para que você se sinta seguro e amparado em todas as etapas do seu processo.
         </p>
       </div>
     </section>
