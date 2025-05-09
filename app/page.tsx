@@ -11,7 +11,6 @@ import Testimonials from "./assets/components/Testimonials";
 import FeatureIcons from "./assets/components/FeatureIcons";
 import FaqSection from "./assets/components/FaqSection";
 import AboutPerson from "./assets/components/AboutPerson";
-import ClientProfileSection from "./assets/components/ClientProfileSection";
 
 interface FormData {
   nome: string;
@@ -59,7 +58,7 @@ export default function LandingPage() {
         <AboutPerson />
         <Services />
         <Testimonials />
-        <ClientProfileSection />
+        {/* <ClientProfileSection /> */}
         <CTASection
           onSubmit={onSubmit}
           register={register}

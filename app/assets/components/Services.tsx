@@ -40,15 +40,32 @@ export default function Services() {
   const isMobile = useIsMobile();
   const [activeTab, setActiveTab] = useState("imobiliario");
 
-  const filteredServices = (config.servicesDetails as { icon: keyof typeof iconMap; title: string; description: string; bullets: string[] }[]).filter((service) =>
+  const imobiliarioTitles = [
+    "Compra e Venda de Imóveis",
+    "Locação e Notificações",
+    "Condomínios",
+    "Registro e Documentação de Imóveis",
+    "Usucapião e Litígios Imobiliários",
+    "Consultoria, Execuções e Cobranças"
+  ];
+  
+  const sucessorioTitles = [
+    "Inventário Extrajudicial e Judicial",
+    "Testamentos e Planejamento Sucessório",
+    "Partilhas, Conflitos e Sucessão Digital"
+  ];
+  
+  const filteredServices = (config.servicesDetails as {
+    icon: keyof typeof iconMap;
+    title: string;
+    description: string;
+    bullets: string[];
+  }[]).filter((service) =>
     activeTab === "imobiliario"
-      ? service.title !== "Inventário e Partilha de Bens" &&
-        service.title !== "Testamentos e Planejamento Sucessório" &&
-        service.title !== "Defesa dos Herdeiros e Legatários"
-      : service.title === "Inventário e Partilha de Bens" ||
-        service.title === "Testamentos e Planejamento Sucessório" ||
-        service.title === "Defesa dos Herdeiros e Legatários"
+      ? imobiliarioTitles.includes(service.title)
+      : sucessorioTitles.includes(service.title)
   );
+  
 
   const ServiceCard = ({ servico, index }: { servico: { icon: keyof typeof iconMap; title: string; description: string; bullets: string[] }; index: number }) => (
     <motion.div
