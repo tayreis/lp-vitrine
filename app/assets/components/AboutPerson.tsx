@@ -29,16 +29,19 @@ export default function AboutPerson() {
 						)}
 					>
 						<p className="text-gray-700 leading-relaxed mb-4">
-							Advogada inscrita na OAB/MG 227.691 e fundadora da Dayane Cunha Sociedade Individual de Advocacia (CNPJ nº 53.538.305/0001-18 | OAB/MG nº 15.980), escritório com atuação especializada nas áreas de Direito Imobiliário e Sucessório.
+							Dra. Dayane Cunha – OAB/MG 227.691 – é fundadora da Dayane Cunha Sociedade Individual de Advocacia (CNPJ nº 53.538.305/0001-18 | OAB/MG nº 15.980), um escritório com atuação estratégica nas áreas de Direito Imobiliário e Direito Sucessório. Nosso objetivo é tornar o Direito acessível, claro e seguro, oferecendo soluções jurídicas eficazes tanto na área consultiva quanto no contencioso.
 						</p>
 						<p className="text-gray-700 leading-relaxed mb-4">
-							Desde o início da trajetória acadêmica, teve a oportunidade de atuar em escritórios com forte presença nos ramos imobiliário, condominial e sucessório. A vivência prática revelou como muitas pessoas enfrentam obstáculos jurídicos em temas como regularização de imóveis, contratos de compra, venda e locação, incorporações, vícios construtivos, convenções condominiais, testamentos e inventários.
+							Desde os primeiros passos na sua jornada acadêmica, a Dra. Dayane teve a oportunidade de vivenciar desafios reais no mercado jurídico, trabalhando em escritórios de renome. Essa experiência permitiu que ela compreendesse profundamente as dificuldades enfrentadas por quem lida com questões complexas como regularização de imóveis, contratos, incorporações, vícios construtivos, inventários e testamentos.
 						</p>
 						<p className="text-gray-700 leading-relaxed mb-4">
-							Comprometida em prestar um atendimento técnico e acessível, a Dra. Dayane se dedica ao constante aperfeiçoamento nas áreas em que atua, buscando oferecer clareza, segurança e transparência tanto em demandas consultivas quanto contenciosas.
+							Essa vivência moldou um compromisso inabalável: entregar assessoria jurídica de excelência com profundo conhecimento técnico e uma visão estratégica, garantindo segurança jurídica para as mais diversas demandas envolvendo bens imóveis.
 						</p>
 						<p className="text-gray-700 leading-relaxed mb-4">
-							Também é apaixonada pela prática processual civil, área em que busca constante atualização e aperfeiçoamento técnico, tendo realizado formações específicas na área.
+							Além disso, Dra. Dayane oferece orientação jurídica completa e personalizada para famílias que buscam segurança e tranquilidade ao lidar com questões patrimoniais após o falecimento de um ente querido. Cada caso é tratado com o devido cuidado, sempre com foco na proteção do patrimônio e bem-estar da família.
+						</p>
+						<p className="text-gray-700 leading-relaxed mb-4">
+							Portanto, nosso objetivo não é apenas a entrega de um serviço jurídico, mas um atendimento que inspira confiança, empatia e resultados reais.
 						</p>
 
 						{/* Filtro embaçado na parte inferior */}
@@ -76,7 +79,7 @@ export default function AboutPerson() {
 					{/* Foto principal com fundo verde escuro */}
 					<div className="relative z-20 w-64 h-96 md:w-[300px] md:h-[440px] rounded-xl overflow-hidden shadow-xl border border-white">
 						<Image
-							src="/foto-branca.jpg"
+							src="/foto-pessoal.jpg"
 							alt="Dra. Dayane Cunha"
 							width={400}
 							height={600}
