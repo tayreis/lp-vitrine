@@ -1,0 +1,380 @@
+{
+    "appName": "Dayane Cunha Sociedade Individual de Advocacia",
+    "appLogo": "/logo-100-40.svg",
+    "year": "2025",
+    "contactEmail": "atendimento@dayanecunha.adv.br",
+    "cnpj": "53.538.305/0001-18",
+    "fetchUrl": "https://formspree.io/f/mgvanqkl",
+    "whatsappUrls": {
+      "heroProposal": "https://wa.me/5534999999504?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20com%20o%20escritório%20Dayane%20Cunha%20Advocacia.",
+      "ctaFinal": "https://wa.me/5534999999504?text=Olá,%20preciso%20de%20assessoria%20jurídica%20em%20Direito%20Imobiliário%20ou%20Sucessório.",
+      "package": "https://wa.me/5534999999504?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20pacote%20{packageName}."
+    },
+    "hero": {
+      "title": "Atuação estratégica em Direito Imobiliário e Sucessório",
+      "subtitle": "Segurança jurídica com um atendimento humano e atento às suas necessidades."
+    },
+    "heroButtons": {
+      "proposalText": "Agendar atendimento",
+      "portfolioText": "Conheça as áreas de atuação"
+    },
+    "about": {
+      "title": "Sobre o Escritório",
+      "description": "O escritório Dayane Cunha Sociedade Individual de Advocacia atua com excelência em Direito Imobiliário e Sucessório, oferecendo soluções jurídicas completas, com foco na prevenção de litígios, segurança patrimonial e atendimento personalizado em todo o Brasil."
+    },
+    "navigation": {
+      "menuItems": [
+        { "label": "Serviços", "href": "#servicos" },
+        { "label": "Sobre", "href": "#aboutPerson" },
+        { "label": "Depoimentos", "href": "#testimonials" },
+        { "label": "Contato", "href": "#contato" }
+      ]
+    },
+    "services": [
+      "Inventário Judicial e Extrajudicial",
+      "Testamento e Planejamento Sucessório",
+      "Regularização de Imóveis",
+      "Assessoria em Compra e Venda",
+      "Direito Condominial",
+      "Consultoria Jurídica Preventiva"
+    ],
+    "portfolio": {
+      "title": "Casos Atendidos",
+      "projectImageUrl": "https://dummyimage.com/600x400/0a1f3c/d4af37&text=Caso+{projectNumber}",
+      "projectDescription": "Casos conduzidos com atenção estratégica, clareza jurídica e foco na resolução eficiente dos conflitos.",
+      "modalImageAlt": "Preview do caso",
+      "projectsCount": 5,
+      "projects": [
+        {
+          "name": "Inventário Extrajudicial – MG",
+          "slug": "inventario-extrajudicial-mg",
+          "image": "...",
+          "description": "Assessoria completa em inventário consensual com otimização tributária",
+          "services": ["Inventário", "Planejamento Sucessório"]
+        }
+      ]
+    },
+    "packages": [
+      {
+        "name": "Preventivo",
+        "price": "R$ 1.500",
+        "description": "Consultoria jurídica e análise documental para prevenir litígios e garantir segurança jurídica."
+      },
+      {
+        "name": "Completo",
+        "price": "R$ 3.200",
+        "description": "Acompanhamento completo de processos extrajudiciais e suporte jurídico personalizado."
+      },
+      {
+        "name": "Personalizado",
+        "price": "Sob consulta",
+        "description": "Soluções sob medida para casos complexos envolvendo patrimônio, herança ou imóveis."
+      }
+    ],
+    "ctaFinal": {
+      "title": "Seu caso merece atenção",
+      "buttonText": "Atendimento pelo WhatsApp"
+    },
+    "emailForm": {
+      "formTitle": "Preencha o formulário abaixo.",
+      "formDescription": "Buscando apoio jurídico de confiança? Você está no lugar certo.",
+      "successMessage": "Mensagem enviada com sucesso! Em breve entraremos em contato.",
+      "labels": {
+        "name": "Nome",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "message": "Mensagem"
+      },
+      "submitButtonText": "Enviar"
+    },
+    "styles": {
+      "colors": {
+        "primary": "#012b1d",
+        "secondary": "#f4d69c",
+        "white": "#ffffff"
+      }
+    },
+    "contactInfo": {
+      "title": "Fale com o Escritório",
+      "description": "Atendemos de forma remota em todo o Brasil com eficiência e sigilo profissional.",
+      "emailLabel": "Email",
+      "emailValue": "atendimento@dayanecunha.adv.br",
+      "phoneLabel": "Telefone",
+      "phoneValue": "(34) 9 9999-9504",
+      "addressLabel": "Endereço",
+      "addressValue": "Atendimento remoto em todo o Brasil"
+    },
+    "testimonials": [
+      {
+        "text": "“Dra. Dayane, excelente profissional, com vasto conhecimento. Super atenciosa e educada. Super recomendo.”",
+        "name": "— Priscila Santos"
+      },
+      {
+        "text": "“Excelente profissional, compreensiva, educada e sempre busca sanar dúvidas e tentar resolver as necessidades processuais do cliente, recomendo!”",
+        "name": "— Pedro Lucas Almeida"
+      },
+      {
+        "text": "“Dra Dayane foi super solicita e rápida, pois precisava de urgência, me deu as orientações que pecisava e o processo correu tudo bem. Recomendo”",
+        "name": "— Ana Paula Peres Freschí"
+      },
+      {
+        "text": "“Excelente profissional, sempre indico. Compreende cada necessidade e faz o trabalho com dedicação e amor.”",
+        "name": "— Yasmin Gonçalves"
+      },
+      {
+        "text": "“Dra Dayane, um amor de pessoa! Sempre solícita e muito rápida nos atendimentos. Nota 1.000!”",
+        "name": "— Ana Santos"
+      },
+      {
+        "text": "“Excelente profissional. Super paciente no atendimento, soube explicar o caso muito bem detalhado, tirou todas as nossas dúvidas. Atenciosa e muito inteligente no caso.”",
+        "name": "— Maria Eduarda Machado"
+      },
+      {
+        "text": "“Atendimento atencioso, ótima profissional, comprometida com o que faz. Recomendo.”",
+        "name": "— Suelen Souza"
+      },
+      {
+        "text": "“Excelente profissional, sempre atenta aos detalhes e disposta a prestar o melhor atendimento. Recomendo de olhos fechados.”",
+        "name": "— Bárbara Araújo"
+      },
+      {
+        "text": "“Todas as vezes que precisei dos serviços da Dra. Dayane fui muito bem atendida e com retornos rápidos.”",
+        "name": "— Drielle Lima Macedo"
+      }
+    ],
+  
+    "packagesPrices": [
+      {
+        "name": "Preventivo",
+        "price": "R$ 1.500",
+        "description": "Indicado para quem busca segurança jurídica em negociações e planejamento patrimonial.",
+        "features": [
+          "Análise documental",
+          "Consultoria preventiva",
+          "Parecer jurídico",
+          "Suporte via e-mail"
+        ],
+        "button": "Solicitar atendimento",
+        "highlight": false
+      },
+      {
+        "name": "Completo",
+        "price": "R$ 3.200",
+        "description": "Ideal para condução de inventários, regularizações ou contratos de maior complexidade.",
+        "features": [
+          "Tudo do Preventivo",
+          "Acompanhamento processual",
+          "Regularização de documentos",
+          "Suporte via WhatsApp e e-mail"
+        ],
+        "button": "Mais contratado",
+        "highlight": true
+      },
+      {
+        "name": "Personalizado",
+        "price": "Sob consulta",
+        "description": "Para demandas específicas como inventários judiciais complexos ou disputas patrimoniais.",
+        "features": [
+          "Atendimento estratégico individualizado",
+          "Apoio técnico em processos judiciais",
+          "Consultas presenciais ou virtuais",
+          "Relatórios e reuniões de acompanhamento"
+        ],
+        "button": "Solicitar proposta",
+        "highlight": false
+      }
+    ],
+    "features": {
+      "title": "Por que escolher nosso escritório",
+      "items": [
+        {
+          "icon": "ShieldCheck",
+          "title": "Segurança Jurídica",
+          "description": "Atuação preventiva e contenciosa com base na legislação atualizada e análise minuciosa de riscos."
+        },
+        {
+          "icon": "UserCheck",
+          "title": "Atendimento Personalizado",
+          "description": "Cada caso é único. Por isso, oferecemos suporte próximo e humano, com foco na real necessidade do cliente."
+        },
+        {
+          "icon": "Eye",
+          "title": "Transparência e Clareza",
+          "description": "Orientações jurídicas descomplicadas, com linguagem acessível e informações precisas."
+        }
+      ]
+    },
+    "servicesDetails": [
+      {
+        "title": "Compra e Venda de Imóveis",
+        "icon": "FileText",
+        "description": "Assessoria completa na elaboração e análise de contratos, financiamento, regularização e due diligence.",
+        "bullets": [
+          "Elaboração e análise de contratos de compra e venda",
+          "Acompanhamento de financiamentos e transações",
+          "Regularização de documentação de imóveis",
+          "Due diligence para verificação de pendências"
+        ]
+      },
+      {
+        "title": "Locação e Notificações",
+        "icon": "ClipboardCheck",
+        "description": "Apoio jurídico na elaboração, revisão e execução de contratos de locação e notificações extrajudiciais.",
+        "bullets": [
+          "Contratos de locação residenciais e comerciais",
+          "Ações de despejo e inadimplemento",
+          "Renovatórias e consignação em pagamento",
+          "Notificações extrajudiciais"
+        ]
+      },
+      {
+        "title": "Condomínios",
+        "icon": "Building",
+        "description": "Consultoria jurídica para síndicos e condomínios, com foco em gestão, inadimplência e normas internas.",
+        "bullets": [
+          "Convenções e regimentos internos",
+          "Inadimplência e conflitos entre condôminos",
+          "Consultoria para assembleias e regulamentações"
+        ]
+      },
+      {
+        "title": "Registro e Documentação de Imóveis",
+        "icon": "Home",
+        "description": "Assessoria para registro, escrituração, regularização fundiária e validação de documentos imobiliários.",
+        "bullets": [
+          "Escritura e registro de imóveis",
+          "Assessoria junto a cartórios e prefeituras",
+          "Verificação de propriedade e títulos",
+          "Validação jurídica de documentos"
+        ]
+      },
+      {
+        "title": "Usucapião e Litígios Imobiliários",
+        "icon": "ShieldCheck",
+        "description": "Representação em disputas de posse e propriedade, processos de usucapião e litígios judiciais.",
+        "bullets": [
+          "Usucapião extraordinário, ordinário e especial",
+          "Disputas de posse e propriedade",
+          "Ações possessórias e vícios construtivos",
+          "Arbitragem e reparações contratuais"
+        ]
+      },
+      {
+        "title": "Consultoria, Execuções e Cobranças",
+        "icon": "Briefcase",
+        "description": "Análise de contratos complexos e atuação em cobranças e execuções no âmbito imobiliário.",
+        "bullets": [
+          "Revisão de contratos de alta complexidade",
+          "Cobrança por inadimplemento contratual",
+          "Execução de títulos de crédito imobiliário"
+        ]
+      },
+      {
+        "title": "Inventário Extrajudicial e Judicial",
+        "icon": "FileText",
+        "description": "Acompanhamento de processos de inventário, com apuração de bens e elaboração de partilhas.",
+        "bullets": [
+          "Inventário em cartório ou na justiça",
+          "Apuração de bens, dívidas e herdeiros",
+          "Partilha consensual ou litigiosa",
+          "Acompanhamento até homologação"
+        ]
+      },
+      {
+        "title": "Testamentos e Planejamento Sucessório",
+        "icon": "ClipboardCheck",
+        "description": "Elaboração e contestação de testamentos, estruturação preventiva da sucessão e proteção patrimonial.",
+        "bullets": [
+          "Testamentos públicos, cerrados ou particulares",
+          "Cumprimento ou impugnação de disposições",
+          "Doações, cláusulas restritivas e holdings",
+          "Redução de tributos e conflitos familiares"
+        ]
+      },
+      {
+        "title": "Partilhas, Conflitos e Sucessão Digital",
+        "icon": "ShieldCheck",
+        "description": "Mediação entre herdeiros, ações judiciais e consultoria em patrimônio digital.",
+        "bullets": [
+          "Revisão de partilhas injustas",
+          "Ações para garantir direitos sucessórios",
+          "Planejamento e transmissão de bens digitais",
+          "Cálculo de ITCMD e regularização fiscal"
+        ]
+      }
+    ],
+  
+  "faq":[{"question":"Estou comprando um imóvel. Preciso de um advogado?","answer":"Sim! A compra de um imóvel envolve contratos, registros e muitas vezes cláusulas que podem comprometer seu patrimônio. Ter um advogado ao seu lado garante que todos os documentos estejam corretos, que não haja riscos ocultos e que você compre com total segurança."},{"question":"Meu imóvel está irregular. Posso regularizar depois de anos?","answer":"Com certeza! Regularizar um imóvel é um passo essencial para garantir seus direitos como proprietário. A boa notícia é que, com a assessoria certa, é possível corrigir pendências e obter a documentação definitiva, mesmo após muito tempo."},{"question":"Tive problemas com a construtora. O que posso fazer?","answer":"Você tem direitos! Se a construtora entregou o imóvel com atraso, defeitos ou não cumpriu o contrato, é possível buscar a reparação, abatimento no valor, correção de vícios construtivos ou até mesmo indenização. Cada caso exige uma análise específica e estratégica."},{"question":"É obrigatório fazer inventário quando uma pessoa com bens morre?","answer":"Sim. Se não o fizer dentro dos 60 (sessenta) dias, será aplicada multa pela Receita Estadual. O inventário é essencial para formalizar a transmissão da herança e garantir a regularização dos bens."},{"question":"Herdei dívidas junto com a herança. Vou precisar pagá-las com meus próprios bens?","answer":"Não se preocupe! As dívidas deixadas por alguém que faleceu são pagas com os bens do espólio durante o inventário. Os herdeiros não são pessoalmente responsáveis por essas dívidas, a menos que tenham se comprometido por escrito a pagá-las. Se o espólio não tiver bens suficientes para quitar todas as dívidas, os credores receberão apenas uma parte proporcional ao valor disponível, e as dívidas remanescentes serão extintas."},{"question":"Posso deixar meus bens para quem eu quiser?","answer":"Sim, mas com algumas restrições legais. A legislação brasileira determina que 50% do seu patrimônio deve ser destinado aos chamados \"herdeiros necessários\" (filhos, cônjuge e pais). Os outros 50% podem ser livremente distribuídos conforme sua vontade, por meio de um testamento. Planejar essa distribuição é essencial para garantir que seus desejos sejam respeitados e para evitar conflitos futuros entre os herdeiros."}],
+  
+    "peopleHelped": [
+      {
+        "title": "Proprietários e investidores de imóveis",
+        "description":
+          "Que desejam segurança jurídica em contratos, financiamentos, aquisições ou regularizações."
+      },
+      {
+        "title": "Famílias em processo de sucessão",
+        "description":
+          "Que desejam evitar conflitos, organizar documentos e garantir uma partilha justa e segura."
+      },
+      {
+        "title": "Herdeiros em disputas ou dúvidas",
+        "description":
+          "Precisam de apoio técnico para lidar com conflitos, exclusão de herdeiros ou contestação de testamentos."
+      },
+      {
+        "title": "Empreendedores e construtoras",
+        "description":
+          "Que buscam apoio jurídico na incorporação de empreendimentos, convenções condominiais e registros."
+      },
+      {
+        "title": "Idosos e famílias que buscam planejamento sucessório",
+        "description":
+          "Querem organizar o patrimônio em vida com segurança e tranquilidade para os próximos."
+      },
+      {
+        "title": "Pessoas que perderam entes queridos",
+        "description":
+          "Precisam de orientação sobre inventário, partilha de bens e regularização patrimonial após falecimento."
+      }
+    ],
+    "swiperBreakpoints": {
+      "640": { "slidesPerView": 1 },
+      "768": { "slidesPerView": 2 },
+      "1024": { "slidesPerView": 3 }
+    },
+    "animations": {
+      "heroTitle": {
+        "initial": { "opacity": 0, "y": -20 },
+        "animate": { "opacity": 1, "y": 0 },
+        "transition": { "duration": 0.6 }
+      },
+      "heroSubtitle": {
+        "initial": { "opacity": 0 },
+        "animate": { "opacity": 1 },
+        "transition": { "delay": 0.2, "duration": 0.6 }
+      },
+      "heroButtons": {
+        "initial": { "opacity": 0 },
+        "animate": { "opacity": 1 },
+        "transition": { "delay": 0.4, "duration": 0.6 }
+      },
+      "sectionTitle": {
+        "initial": { "opacity": 0, "y": -10 },
+        "animate": { "opacity": 1, "y": 0 },
+        "transition": { "duration": 0.5 }
+      },
+      "serviceItem": {
+        "initial": { "opacity": 0, "y": 20 },
+        "transitionDuration": 0.5,
+        "delayFactor": 0.1
+      },
+      "packageItem": {
+        "initial": { "opacity": 0, "y": 20 },
+        "transitionDuration": 0.5,
+        "delayFactor": 0.2
+      }
+    }
+  
+  }
+  

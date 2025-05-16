@@ -38,16 +38,14 @@ export default function Testimonials() {
       id="testimonials"
       className="relative py-20 px-6 text-center overflow-hidden bg-[#012b1d] text-white"
     >
-      {/* Faixa rosa decorativa */}
-      <div className="absolute top-0 left-0 w-[50%] h-full bg-[#fbe9e3] -skew-x-12 -translate-x-[20%] z-0 shadow-xl" />
 
       {/* Gradiente dourado no fundo */}
-      <div className="absolute right-0 bottom-0 w-full h-full bg-gradient-to-tr from-transparent via-transparent to-[#d4af37]/10 pointer-events-none z-0" />
+      <div className="absolute right-0 bottom-0 w-full h-full bg-gradient-to-tr from-[#d4af37]/25 via-transparent to-[#d4af37]/50 pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-4">Depoimentos</h2>
-        <p className="mb-8 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
-          Com avaliações excelentes no Google, temos orgulho em compartilhar o que nossos clientes dizem sobre a experiência que tiveram conosco.
+        <p className="mb-8 text-lg max-w-2xl mx-auto bg-[white] bg-clip-text text-transparent">
+          Reconhecida pela excelência no atendimento jurídico, temos orgulho em apresentar os depoimentos de clientes que confiaram em nosso trabalho e vivenciaram nossa atuação ética, humana e segura.
         </p>
 
         <Swiper
@@ -95,7 +93,7 @@ export default function Testimonials() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <p className="mt-4 text-lg max-w-2xl mx-auto bg-gradient-to-r from-[#0a1f3c] via-[#d4afaa] to-[#fbe9e3] bg-clip-text text-transparent">
+        <p className="mt-4 text-lg max-w-2xl mx-auto bg-[white] bg-clip-text text-transparent">
           Aqui, cada cliente é ouvido com atenção e cuidado. Nosso compromisso vai além da técnica jurídica: entregamos um atendimento ético, humano e estratégico, para que você se sinta seguro e amparado em todas as etapas do seu processo.
         </p>
       </div>
