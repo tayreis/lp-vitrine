@@ -13,8 +13,8 @@ export default function Hero() {
     >
       <div className="absolute inset-0 z-0">
         <Image
-          src="/banner.png" // coloque sua imagem correta aqui
-          alt="Imagem Direito"
+          src="/banner.png"
+          alt="Banner institucional do escritório Dayane Cunha Advocacia com foco em Direito Imobiliário e Sucessório"
           layout="fill"
           priority
           className="opacity-60 object-cover"
